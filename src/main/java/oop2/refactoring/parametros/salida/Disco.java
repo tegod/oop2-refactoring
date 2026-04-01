@@ -6,6 +6,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.List;
 import java.util.Objects;
+import java.util.Optional;
 
 class Disco {
     private String pathBase;
@@ -27,8 +28,8 @@ class Disco {
     }
 
     public String contenido(String nombre) throws IOException {
-        Objects.nonNull(nombre);
-        Path path = Paths.get(nombre);
+        Objects.requireNonNullElseGet(nombre, () -> new IllegalArgumentException("El nombre no puede ser null..."));
+        Path path = Paths.get(this.pathBase + "/" + nombre);
         if (!Files.exists(path))
             return null;
         List<String> lineas = Files.readAllLines(path);

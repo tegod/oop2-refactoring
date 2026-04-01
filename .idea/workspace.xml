@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42dd988b-38ce-4968-bab5-eddc8526fc95" name="Changes" comment="minor changes">
-      <change afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio6/CalculadoraPedido.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio6/MainCalculadoraPedido.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio6/Pedido.java" afterDir="false" />
+    <list default="true" id="42dd988b-38ce-4968-bab5-eddc8526fc95" name="Changes" comment="ejercicio opcional adicional">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/refactoring/parametros/entrada/Disco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/refactoring/parametros/entrada/Disco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/refactoring/parametros/salida/Disco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/refactoring/parametros/salida/Disco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/refactoring/parametros/salida/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/refactoring/parametros/salida/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,29 +51,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Debug&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;introduce.parameter.lambda&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Debug",
+    "Application.oop2.refactoring.parametros.salida.Main.executor": "Debug",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "introduce.parameter.lambda": "true",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RunManager" selected="Application.oop2.refactoring.parametros.salida.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="oop2.refactoring.collecting.ejemplo1.Main" />
       <module name="oop2-refactoring" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="oop2.refactoring.collecting.ejemplo1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="oop2.refactoring.parametros.salida.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop2.refactoring.parametros.salida.Main" />
+      <module name="oop2-refactoring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oop2.refactoring.parametros.salida.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,6 +108,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.oop2.refactoring.parametros.salida.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -102,7 +116,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.32098.37" />
       </set>
     </attachedChunks>
   </component>
@@ -130,7 +144,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775008524426</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ejercicio opcional adicional">
+      <option name="closed" value="true" />
+      <created>1775072449713</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1775072449713</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -139,7 +161,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="upgrade to java 23" />
     <MESSAGE value="minor changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="minor changes" />
+    <MESSAGE value="ejercicio opcional adicional" />
+    <option name="LAST_COMMIT_MESSAGE" value="ejercicio opcional adicional" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -148,6 +171,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/oop2/refactoring/collecting/ejemplo1/Main.java</url>
           <line>14</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/oop2/refactoring/parametros/salida/Main.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

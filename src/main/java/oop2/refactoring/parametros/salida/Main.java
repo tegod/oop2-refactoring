@@ -1,11 +1,12 @@
 package oop2.refactoring.parametros.salida;
 
 import java.io.IOException;
+import java.util.Optional;
 
 public class Main {
     public static void main(String[] args) throws IOException {
         var disco = new Disco("/home/enrique");
-        var archivo = disco.contenido("archivo.txt");
+        var archivo = disco.contenido("contenido.txt");
         //retornar null me obliga a no olvidarme de chequear conun if
         if (archivo != null) {
 
