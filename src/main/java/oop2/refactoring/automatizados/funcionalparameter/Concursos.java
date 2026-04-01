@@ -16,6 +16,7 @@ public class Concursos {
     //Rename method para generalizarlo
     //remuevo concursoConNombre
     //cambio el Main para usar el método genérico
+
     public List<Concurso> concursosInicianEn(LocalDate fechaInicio) {
         List<Concurso> resultado = new ArrayList<>();
         for (Concurso concurso : this.concursos) {
