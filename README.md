@@ -60,6 +60,6 @@ para refactorizar.
     - Apliquemos polimorfismo para eliminar preguntar por el tipo para la marca de exceso.
 - Ejercicio 4: Removamos el uso de *null*.
 - Ejercicio 5: Utilicemos polimorfismo y tell don't ask.
-    - Antes de comenzar a refactorizar, escribamos tests.
+    - Contiene un test escrito.
 
 El ejercicio 2 fue tomado de [lamchau](https://github.com/lamchau/refactoring-exercise).
