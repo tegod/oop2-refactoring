@@ -11,6 +11,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
 public class RecaudacionTest {
+    Recaudacion recaudacion = new Recaudacion();
 
     @Test
     public void testWhereGivenCompany() throws IOException {

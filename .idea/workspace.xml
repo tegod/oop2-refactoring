@@ -5,10 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42dd988b-38ce-4968-bab5-eddc8526fc95" name="Changes" comment="ejercicio opcional adicional">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/LibrosInfantiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/LibrosNuevosLanzamientos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/LibrosRegulares.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio2/CondIf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio2/CsvDataReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio3/AlquilerDeAuto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio3/Cena.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio3/Desayuno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio3/Gasto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio5/Comedia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio5/Drama.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/oop2/tp3/ejercicio1/AlquilerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/oop2/tp3/ejercicio3/ReporteDeGastosTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/oop2/tp3/ejercicio4/PersonaRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/refactoring/parametros/entrada/Disco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/refactoring/parametros/entrada/Disco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/refactoring/parametros/salida/Disco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/refactoring/parametros/salida/Disco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/refactoring/parametros/salida/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/refactoring/parametros/salida/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/Alquiler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/Alquiler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/CopiaLibro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/CopiaLibro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/Libro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/Libro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio2/Recaudacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio2/Recaudacion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio3/EjemploDeUsoDelReporte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio3/EjemploDeUsoDelReporte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio3/ReporteDeGastos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio3/ReporteDeGastos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio4/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio4/PersonaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio4/PersonaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio5/Calculador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio5/Calculador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio5/Evento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio5/Evento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio5/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/oop2/tp3/ejercicio2/RecaudacionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/oop2/tp3/ejercicio2/RecaudacionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/oop2/tp3/ejercicio5/CalculadorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/oop2/tp3/ejercicio5/CalculadorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +55,14 @@
       <entry key="agent-panel" value="GPT-5.3-Codex" />
     </selectedModels>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -36,12 +72,12 @@
     &quot;assignee&quot;: &quot;enriquemolinari&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/enriquemolinari/oop2-refactoring.git&quot;,
-    &quot;accountId&quot;: &quot;f0dfc563-11d8-4aa4-8887-77f436becec6&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/tegod/oop2-refactoring.git",
+    "accountId": "d6154bf2-710a-4dce-bc9f-500ab35c3cd6"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -53,8 +89,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.EjemploDeUsoDelReporte.executor": "Run",
     "Application.Main.executor": "Debug",
     "Application.oop2.refactoring.parametros.salida.Main.executor": "Debug",
+    "Application.oop2.tp3.ejercicio1.Main.executor": "Run",
+    "JUnit.AlquilerTest.testCalculoDePago.executor": "Coverage",
+    "JUnit.CalculadorTest.test01.executor": "Run",
+    "JUnit.ReporteDeGastosTest.TestReporte.executor": "Run",
+    "JUnit.ReporteDeGastosTest.TestReporteTotalExceso.executor": "Run",
+    "JUnit.ReporteDeGastosTest.executor": "Coverage",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -68,13 +111,18 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.oop2.refactoring.parametros.salida.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oop2.refactoring.collecting.ejemplo1.Main" />
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="oop2.tp3.ejercicio3" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CalculadorTest.test01">
+    <configuration name="EjemploDeUsoDelReporte" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop2.tp3.ejercicio3.EjemploDeUsoDelReporte" />
       <module name="oop2-refactoring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oop2.refactoring.collecting.ejemplo1.*" />
+          <option name="PATTERN" value="oop2.tp3.ejercicio3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,15 +130,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="oop2.refactoring.parametros.salida.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oop2.refactoring.parametros.salida.Main" />
+    <configuration name="CalculadorTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oop2-refactoring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oop2.refactoring.parametros.salida.*" />
+          <option name="PATTERN" value="oop2.tp3.ejercicio5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="oop2.tp3.ejercicio5" />
+      <option name="MAIN_CLASS_NAME" value="oop2.tp3.ejercicio5.CalculadorTest" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReporteDeGastosTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oop2-refactoring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oop2.tp3.ejercicio3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="oop2.tp3.ejercicio3" />
+      <option name="MAIN_CLASS_NAME" value="oop2.tp3.ejercicio3.ReporteDeGastosTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReporteDeGastosTest.TestReporte" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oop2-refactoring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oop2.tp3.ejercicio3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="oop2.tp3.ejercicio3" />
+      <option name="MAIN_CLASS_NAME" value="oop2.tp3.ejercicio3.ReporteDeGastosTest" />
+      <option name="METHOD_NAME" value="TestReporte" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReporteDeGastosTest.TestReporteTotalExceso" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oop2-refactoring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oop2.tp3.ejercicio3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="oop2.tp3.ejercicio3" />
+      <option name="MAIN_CLASS_NAME" value="oop2.tp3.ejercicio3.ReporteDeGastosTest" />
+      <option name="METHOD_NAME" value="TestReporteTotalExceso" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -108,15 +206,18 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.oop2.refactoring.parametros.salida.Main" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.CalculadorTest.test01" />
+        <item itemvalue="JUnit.ReporteDeGastosTest.TestReporteTotalExceso" />
+        <item itemvalue="JUnit.ReporteDeGastosTest.TestReporte" />
+        <item itemvalue="JUnit.ReporteDeGastosTest" />
+        <item itemvalue="Application.EjemploDeUsoDelReporte" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.32098.37" />
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.23892.409" />
       </set>
     </attachedChunks>
   </component>
@@ -177,8 +278,25 @@
           <line>8</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/oop2/tp3/ejercicio1/AlquilerTest.java</url>
+          <line>25</line>
+          <properties class="oop2.tp3.ejercicio1.AlquilerTest" method="testCalculoDePago">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/oop2_refactoring$ReporteDeGastosTest.ic" NAME="ReporteDeGastosTest Coverage Results" MODIFIED="1777155741579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>oop2.tp3.ejercicio3.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/oop2_refactoring$AlquilerTest_testCalculoDePago.ic" NAME="AlquilerTest.testCalculoDePago Coverage Results" MODIFIED="1776894583446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>oop2.tp3.ejercicio1.*</FILTER>
+    </SUITE>
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

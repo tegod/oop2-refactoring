@@ -7,7 +7,14 @@ public class CopiaLibro {
         this.libro = libro;
     }
 
-    public Libro libro() {
+    /*public Libro libro() {
         return libro;
+    }*/
+    public double calcularCosto(int dias) {
+        return this.libro.calcularPrecio(dias);
+    }
+
+    public int calcularPuntos(int diasAlquilados) {
+        return this.libro.calcularPuntos(diasAlquilados);
     }
 }

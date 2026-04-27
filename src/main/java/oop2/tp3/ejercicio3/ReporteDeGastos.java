@@ -3,23 +3,34 @@ package oop2.tp3.ejercicio3;
 import java.time.LocalDate;
 import java.util.List;
 
-enum TipoDeGasto {
+/*enum TipoDeGasto {
     CENA, DESAYUNO, ALQUILER_AUTO
 }
 
 class Gasto {
     TipoDeGasto tipoGasto;
     int monto;
-}
+}*/
 
 public class ReporteDeGastos {
-    public void imprimir(List<Gasto> gastos) {
+    public String calcular(List<Gasto> gastos) {
         int total = 0;
         int gastosDeComida = 0;
-
-        System.out.println("Expenses " + LocalDate.now());
+        String reporte = "expensas " + LocalDate.now() + "\n";
+        //System.out.println("Expenses " + LocalDate.now());
 
         for (Gasto gasto : gastos) {
+            gastosDeComida += gasto.devolverSiEsComida();
+
+            String marcaExcesoComidas = "";
+            marcaExcesoComidas = gasto.excesoComida()? "X" : " ";
+
+            reporte += gasto.nombre + "\t" + gasto.monto + "\t" + marcaExcesoComidas + "\n";
+
+            total += gasto.monto;
+        }
+
+        /*for (Gasto gasto : gastos) {
             if (gasto.tipoGasto == TipoDeGasto.CENA || gasto.tipoGasto == TipoDeGasto.DESAYUNO) {
                 gastosDeComida += gasto.monto;
             }
@@ -40,12 +51,16 @@ public class ReporteDeGastos {
             String marcaExcesoComidas = gasto.tipoGasto == TipoDeGasto.CENA && gasto.monto > 5000
                     || gasto.tipoGasto == TipoDeGasto.DESAYUNO && gasto.monto > 1000 ? "X" : " ";
 
-            System.out.println(nombreGasto + "\t" + gasto.monto + "\t" + marcaExcesoComidas);
+            reporte += nombreGasto + "\t" + gasto.monto + "\t" + marcaExcesoComidas + "\n";
+            //System.out.println(nombreGasto + "\t" + gasto.monto + "\t" + marcaExcesoComidas);
 
             total += gasto.monto;
-        }
+        }*/
 
-        System.out.println("Gastos de comida: " + gastosDeComida);
-        System.out.println("Total de gastos: " + total);
+        reporte += "Gastos de comida: " + gastosDeComida + "\n" + "Total de gastos: " + total + "\n";
+
+        return reporte;
+        /*System.out.println("Gastos de comida: " + gastosDeComida);
+        System.out.println("Total de gastos: " + total);*/
     }
 }

@@ -13,7 +13,16 @@ public class Alquiler {
         return this.diasAlquilados;
     }
 
-    public CopiaLibro copia() {
+    /*public CopiaLibro copia() {
         return this.copia;
+    }*/
+
+    public double calcularCosto() {
+        return this.copia.calcularCosto(diasAlquilados);
     }
+
+    public int calcularPuntos() {
+        return this.copia.calcularPuntos(diasAlquilados);
+    }
+
 }

@@ -5,6 +5,7 @@ import org.jdbi.v3.core.Jdbi;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+import java.util.Optional;
 
 public class PersonaRepository {
 
@@ -26,7 +27,7 @@ public class PersonaRepository {
             var personas = new ArrayList<Persona>();
 
             if (rs.size() == 0) {
-                return null;
+                return personas;
             }
 
             for (Map<String, String> map : rs) {
@@ -44,7 +45,7 @@ public class PersonaRepository {
      * - null si el id no se encuentra en la BD
      * - la instancia de Persona encontrada
      */
-    public Persona buscarId(Long id) {
+    public Optional<Persona> buscarId(Long id) {
         return jdbi.withHandle(handle -> {
 
             var rs = handle
@@ -52,10 +53,12 @@ public class PersonaRepository {
                     .bind(0, id).mapToMap(String.class).list();
 
             if (rs.size() == 0) {
-                return null;
+                Optional.empty();
+                //throw new RuntimeException("No se encontro el persona");
+                //return null;
             }
 
-            return new Persona(rs.get(0).get("nombre"), rs.get(0).get("apellido"));
+            return Optional.of(new Persona(rs.get(0).get("nombre"), rs.get(0).get("apellido")));
 
         });
     }

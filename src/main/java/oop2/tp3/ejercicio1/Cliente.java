@@ -11,7 +11,7 @@ public class Cliente {
         this.name = nombre;
     }
 
-    public Object[] calcularDeudaYPuntosObtenidos() {
+    /*public Object[] calcularDeudaYPuntosObtenidos() {
         Object[] resultado = new Object[2];
         double total = 0;
         int puntosAlquilerFrecuente = 0;
@@ -44,6 +44,19 @@ public class Cliente {
         }
         resultado[0] = total;
         resultado[1] = puntosAlquilerFrecuente;
+        return resultado;
+    }*/
+
+    public Object[] obtenerTotalDeudaYPuntosObtenidos() {
+        Object[] resultado = new Object[2];
+        double total = 0;
+        int puntos = 0;
+        for (Alquiler alquiler : alquileres) {
+            total =  total + alquiler.calcularCosto();
+            puntos = puntos + alquiler.calcularPuntos();
+        }
+        resultado[0] = total;
+        resultado[1] = puntos;
         return resultado;
     }
 
